@@ -1,0 +1,15 @@
+[project]
+name = "higher_bit_depth_save_image"
+description = "A comfyui node that provides save image with higher bit depth."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["opencv-python-headless", "Pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/aimerib/ComfyUI-HigherBitDepthSaveImage"
+#  Used by Comfy Registry https://ceomfyregistry.org
+
+[tool.comfy]
+PublisherId = "aimerib"
+DisplayName = "ComfyUI-HigherBitDepthSaveImage"
+Icon = ""
